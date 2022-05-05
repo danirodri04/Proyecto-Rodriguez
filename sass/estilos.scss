@@ -50,9 +50,13 @@ footer{
 }
 
 .imagen__autos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-width: 100%;
     height: 100%;
     margin-top: 80px;
+    padding-top: 50px;
 }
 .texto-imagen{
     display: block;
@@ -76,6 +80,21 @@ nav a{
     align-items: center;
     padding-left: 30px;
     gap: 10px;
+}
+
+.Titulo{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.DEPORTES{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding:200px ;
+    background-color: #057333;
 }
 
 @media (max-width:700px){
