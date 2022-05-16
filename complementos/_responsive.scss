@@ -1,0 +1,22 @@
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0;
+    }
+
+    footer{
+        background-color:rgb(230, 81, 81);
+        color: white;
+        padding: 6px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+    
+}

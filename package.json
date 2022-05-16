@@ -1,10 +1,10 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/danirodri04/Proyecto-Rodriguez/issues"
   },
-  "homepage": "https://github.com/danirodri04/Proyecto-Rodriguez#readme"
+  "homepage": "https://github.com/danirodri04/Proyecto-Rodriguez#readme",
+  "description": ""
 }
